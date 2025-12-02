@@ -38,15 +38,23 @@ h1 {
   margin-bottom: 100px;
   padding-bottom: 50px;
 }
-#h3-selector {
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#h2-selector {
   margin-top: 100px;
   margin-bottom: 0px;
   padding: 20px 0px;
 }
 .img-selector {
   margin-inline: 50px;
+  width: 300px;
+  height: 400px;
 }
-h3 {
+h2 {
   text-align: center;
 }
 .learn-more {

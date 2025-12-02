@@ -11,6 +11,3 @@
 
 opasity
 transition: opacity 0.3s Soft
-
-
-ikke ha i button tag learn more, men inni en p tag og style som der er nå.

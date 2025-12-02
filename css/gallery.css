@@ -4,7 +4,7 @@ h1 {
 .gallery-p {
   margin-left: 4%;
 }
-h3 {
+h2 {
   text-align: center;
   margin-bottom: 40px;
 }
@@ -15,11 +15,7 @@ h3 {
   border-top: #fdeffc 2px dashed;
 }
 
-.gallery-section1,
-.gallery-section2,
-.gallery-section3,
-.gallery-section4,
-.gallery-section5 {
+.gallery-section {
   display: flex;
   justify-content: center;
   align-items: center;

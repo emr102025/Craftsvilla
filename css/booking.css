@@ -52,42 +52,36 @@ textarea {
 }
 input[type="reset"],
 .order-button {
-    margin-top: 10px;
-     padding: 10px 20px;
-    width: 200px;  
-    justify-content: center;
-    margin: 10px 10px;
-    border-radius: 25px;
-    background-color: white;
-    border: #848487ff 1px solid;
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 200px;
+  justify-content: center;
+  margin: 10px 10px;
+  border-radius: 25px;
+  background-color: white;
+  border: #848487ff 1px solid;
 }
-.button-row{
-    display: flex;
-    flex-direction: row;
-    
+.button-row {
+  display: flex;
+  flex-direction: row;
 }
 #dialog-message {
   display: none;
   justify-self: center;
   align-self: center;
-  padding: 4rem 5rem 5rem;  
+  padding: 4rem 5rem 5rem;
   border: none;
   border-radius: 10px;
   box-shadow: 5px 5px 20px 8px #55555580;
   background-size: cover;
   background-image: url(../assets/images/background-img/background4.jpg);
 }
-.mainpage-btn{
-    padding: 10px 20px;
-    width: 200px;  
-    display: block;
-    justify-content: center;
-    margin: 0 auto;
-    border-radius: 25px;
-    border: #848487ff 1px solid;
-}
-
-/*
-* {
-  outline: 2px solid red;
+.mainpage-btn {
+  padding: 10px 20px;
+  width: 200px;
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: #848487ff 1px solid;
 }

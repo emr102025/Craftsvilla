@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "quicksand";
+  src: url(./assets/font/Quicksand-VariableFont_wght.ttf) format(truetype);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "quicksand";
+  src: url(./assets/font/Quicksand-VariableFont_wght.ttf) format(truetype);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100svw;
+  min-height: 100svh;
+}
+h1,
+h3,
+h5,
+p {
+  font-family: "quicksand";
+  line-height: 1.5;
+  letter-spacing: 0.1rem;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 2%;
+  margin-left: 4%;
+}
+h3 {
+  font-size: 2.2rem;
+}
+h5 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 3rem;
+  background-image: url(./assets/images/background-img/background-navbar.png);
+  border-bottom: black 1px solid;
+}
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 5rem;
+  font-size: 1.3rem;
+}
+ul li a {
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "quicksand";
+}
+.top-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0 3rem;
+  background-image: url(./assets/images/background-img/background-footer.png);
+  border-top: black 1px solid;
+}
+.sosial-media {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.media {
+  margin-top: 30px;
+}
+.footer-btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(204, 204, 208, 0.838);
+  padding-top: 4px;
+  position: fixed;
+  top: 80%;
+  right: 2%;
+}
+.aboutus-btn {
+  border: none;
+  background-color: transparent;
+}
+.aboutus-btn a {
+  font-size: 1.2rem;
+}
+.bottom-footer {
+  height: 24px;
+  background-color: #9bb4f4;
+  border-top: black 1px solid;
+  text-align: center;
+}

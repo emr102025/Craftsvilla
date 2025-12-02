@@ -1,0 +1,16 @@
+
+#cfbaf0 - Purple
+#90dbf4 - Light Blue
+#9bb4f4 - Dark Blue
+#bcf1b6 - Soft Green
+#fbf8cc - Yellow
+#ffac81 - Pastell Orange
+#F4F4F0 - Light Grey
+#D8B3B3 - Light Pink
+#848487ff
+
+opasity
+transition: opacity 0.3s Soft
+
+
+ikke ha i button tag learn more, men inni en p tag og style som der er nå.

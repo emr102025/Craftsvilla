@@ -1,0 +1,29 @@
+h1 {
+  margin-bottom: 20px;
+}
+.gallery-p {
+  margin-left: 4%;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.gallery {
+  background-image: url(../assets/images/background-img/background2.png);
+  margin: 100px 0;
+  padding: 50px 0;
+  border-top: #fdeffc 2px dashed;
+}
+
+.gallery-section1,
+.gallery-section2,
+.gallery-section3,
+.gallery-section4,
+.gallery-section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 50px 0;
+}

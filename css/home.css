@@ -1,0 +1,56 @@
+h1 {
+  margin-bottom: -60px;
+}
+
+.paintbench {
+  margin-top: -60px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.vision {
+  margin-top: 100px;
+  position: relative;
+  height: 90svh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding-bottom: 40px;
+  background-image: url(../assets/images/additional-img/visionbackground.png);
+}
+.text {
+  background-color: white;
+  width: 60%;
+  height: auto;
+  padding: 10px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin-right: 10%;
+}
+.course-selector {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f4f4f0;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+}
+#h3-selector {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding: 20px 0px;
+}
+.img-selector {
+  margin-inline: 50px;
+}
+h3 {
+  text-align: center;
+}
+.learn-more {
+  border: #ffac81 solid 2px;
+  padding: 10px 20px;
+  border-radius: 25px;
+}

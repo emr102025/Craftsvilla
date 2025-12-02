@@ -1,0 +1,104 @@
+#container-feedback {
+  background-image: url(../assets/images/additional-img/pencil.png);
+  height: 500px;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
+.feedback-txt {
+  margin: 30px 0px 0px 70px;
+}
+
+#feedback-form {
+  margin: 0 20%;
+  padding: 10% 0;
+}
+fieldset {
+  font-family: "quicksand";
+  background-color: #e5e3e3;
+  box-shadow: 5px 5px 20px 8px #55555580;
+}
+
+legend {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  width: 700px;
+  background-color: #f6ffc2;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 2px #55555580;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+input[type="file"] {
+  height: 30px;
+  width: 700px;
+  border: #848487ff 1px solid;
+  border-radius: 10px;
+  padding-left: 5px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  color: rgb(125, 125, 127);
+}
+input[type="radio"] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+input[type="file"] {
+  padding: 5px 0px 25px 15px;
+  margin-top: 10px;
+  background-color: white;
+}
+input[type="checkbox"] {
+  margin-top: 50px;
+  margin-right: 10px;
+}
+.submit-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  width: 200px;
+  justify-content: center;
+  margin: 10px 10px;
+  border-radius: 25px;
+  background-color: white;
+  border: #848487ff 1px solid;
+}
+textarea {
+  font-family: "quicksand";
+}
+#feedback-background {
+  background-image: url(../assets/images/background-img/background5.png);
+  padding: 20px 0px;
+  margin-bottom: 100px;
+  border-top: #ba967e 2px dashed;
+}
+
+#feedback-container1,
+#feedback-container2,
+#feedback-container3,
+#feedback-container4 {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 40px 20px;
+}
+.feedback-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  border: 3px solid #ba967e;
+}
+
+.feedback-message img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

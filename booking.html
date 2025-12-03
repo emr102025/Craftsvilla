@@ -72,9 +72,9 @@
             <label for="workshop-type">Choose a workshop couse:</label><br />
             <select name="workshop-type" id="workshop-type" required>
               <option value="workshop-type" selected>Workshop course</option>
-              <option value="mosaic">Mosaic</option>
-              <option value="canvas">Canvas</option>
-              <option value="watercolor">Watercolor</option></select
+              <option value="mosaic">Mosaic 400KR</option>
+              <option value="canvas">Canvas 300KR</option>
+              <option value="watercolor">Watercolor 200KR</option></select
             ><br />
             <label for="date-time">Choose a date and time:</label><br />
             <input
@@ -115,6 +115,7 @@ Optional</textarea
                       Thank you for booking a course at Art Adventure.<br />
                       We sent you an order confirmation to your email.
                     </p>
+                    <button class="close-button" onclick="document.getElementById('dialog-message').close()">X</button>
                     <br /><br /><button
                       class="mainpage-btn"
                       onclick="document.getElementById('dialog-message').close(); window.location.href='index.html';"

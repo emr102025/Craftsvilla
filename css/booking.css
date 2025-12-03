@@ -61,6 +61,13 @@ input[type="reset"],
   background-color: white;
   border: #848487ff 1px solid;
 }
+select,
+input[type="datetime-local"],
+input[type="reset"],
+.order-button,
+.mainpage-btn {
+  cursor: pointer;
+}
 .button-row {
   display: flex;
   flex-direction: row;
@@ -78,10 +85,21 @@ input[type="reset"],
 }
 .mainpage-btn {
   padding: 10px 20px;
+  height: 40px;
   width: 200px;
   display: block;
   justify-content: center;
   margin: 0 auto;
   border-radius: 25px;
   border: #848487ff 1px solid;
+}
+
+#dialog-message .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
 }

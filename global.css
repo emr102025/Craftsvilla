@@ -73,6 +73,12 @@ a {
   color: black;
   font-family: "quicksand";
 }
+a:hover,
+button:hover,
+input[type="reset"]:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
 .top-footer {
   display: flex;
   align-items: center;

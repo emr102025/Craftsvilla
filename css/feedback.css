@@ -3,6 +3,8 @@
   height: 500px;
   padding-top: 80px;
   padding-left: 50px;
+  display: block;
+  background-position: right;
 }
 
 .feedback-txt {
@@ -46,15 +48,18 @@ input[type="file"] {
 input[type="radio"] {
   margin-top: 10px;
   margin-right: 10px;
+  cursor: pointer;
 }
 input[type="file"] {
   padding: 5px 0px 25px 15px;
   margin-top: 10px;
   background-color: white;
+  cursor: pointer;
 }
 input[type="checkbox"] {
   margin-top: 50px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .submit-btn {
   margin-top: 10px;
@@ -65,10 +70,15 @@ input[type="checkbox"] {
   border-radius: 25px;
   background-color: white;
   border: #848487ff 1px solid;
+  cursor: pointer;
 }
 textarea {
   font-family: "quicksand";
 }
+select {
+  cursor: pointer;
+}
+
 #feedback-background {
   background-image: url(../assets/images/background-img/background5.png);
   padding: 20px 0px;
